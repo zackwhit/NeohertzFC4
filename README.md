@@ -5,6 +5,8 @@ devices to cost so much. My goal was to develop something relatively simple and 
 open source designs (there aren't many!) aren't easy to interact with or order: they aren't in KiCAD and aren't on GitHub/Gitlab. So another one of my goals was to
 provide a sort of template that would not only make my own development easier, but make it easier for other people as well. 
 
+![plot](./Images/rev001_pcb.png)
+
 #### Features
 - STM32F405RGTx main computing chip
 - BMP280 barometer
@@ -22,7 +24,14 @@ Bonus: LIS3DH accelerometer included as well, since I wanted to add support for 
 
 ### Potential issues
 - There aren't many (if any at all) alternative parts for certain ICs. If one were to go out of stock, a small redesign would have to be done to use a different solution.
-As of right now, the hardware is completely untested.
+- As of right now, the hardware is completely untested.
+
+### How to build one!
+- Order the PCBs through JLCPCB, I recomend only having them populate the passive components for you at this stage of the project.
+- Order your components; I suggest through LCSC
+- Assemble! This is a double sided PCB, but you can ignore the bottom side if you don't want to use the analog OSD chip included there.
+- Profit.
+
 
 ### Future plans
 As of the first revision, there is only one onboard BEC. This means there is only a 5V rail and no 9v (or 10v/12v) rails for a digital 
