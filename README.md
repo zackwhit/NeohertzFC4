@@ -11,10 +11,14 @@ provide a sort of template that would not only make my own development easier, b
 - MMA8452QR1 accelerometer
 - LIS3MDL magnometer
 - AT7456 analog OSD chip
-Bonus: LIS3DH accelerometer included as well, since I wanted to add support for it in betaflight
+  
+Bonus: LIS3DH accelerometer included as well, since I wanted to add support for it in betaflight. It doesn't have to be populated
 
 ### Updates
 - July 19th, 2023: I ordered the parts for the first 5 prototypes after working on the design for about a week. All the parts should be here in about two weeks.
+
+### Known Issues
+- The JLCPCB information isn't exactly correct in REV001, I would not recomend ordering it at this stage unless you know what you're doing.
 
 ### Potential issues
 - There aren't many (if any at all) alternative parts for certain ICs. If one were to go out of stock, a small redesign would have to be done to use a different solution.
@@ -29,6 +33,8 @@ I'm also interested in creating a version of this with an AT32 chip instead of a
 available. I'm inclined to making a board that can have either an AT32 or an STM32 chip, that way you could just select whichever one is best at the time. 
 Of course, this hinges on betaflight actually having decent support for AT32 chips, since I don't personally have time to add support. 
 
+Other (optional) features I'm interested in adding:
+- ELRS receiver built-in, both 900MHz and 2.4GHz options would be great so as to support long range flying.
 
 #### License
 GNU General Public License v3.0
