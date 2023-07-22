@@ -1,0 +1,13 @@
+(footprint "SolderPad_2.5x2.5" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -0.254 5.842) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4e597ed3-b9f9-4ffe-9309-9e55f4af8031)
+  )
+  (fp_text value "SolderPad_2.5x2.5" (at -0.254 3.556) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 35fdc899-63f9-4e8b-a4fa-388aae35e875)
+  )
+  (pad "1" smd roundrect (at 0 0) (size 2.5 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 846de633-8c91-43c9-8a47-b9f945800a72))
+)

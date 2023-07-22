@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MMA452Q")(type "KiCad")(uri "${KIPRJMOD}/library/MMA8452Q/MMA8452Q.kicad_sym")(options "")(descr ""))
+)

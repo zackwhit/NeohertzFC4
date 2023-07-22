@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MMA8452Q")(type "KiCad")(uri "${KIPRJMOD}/library/MMA8452Q")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/library/Library.pretty")(options "")(descr ""))
+)
